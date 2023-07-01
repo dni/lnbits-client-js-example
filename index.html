@@ -9,10 +9,15 @@
     <h2>Frontend Example</h2>
     <p>Looks into browser console the output should be the same.</p>
     <div id="log"></div>
-    <script src="bundle.js"></script>
+    <!-- BROWSERIFY -->
+    <!-- <script src="bundle.js"></script> -->
     <script type="module">
-        import LNbitsClient from 'bundle.js';
+        import LNbitsClient from '@lnbits/client';
         console.log("import client", LNbitsClient);
+    </script>
+    <script type="module">
+        import LNbitsClient from './bundle.js';
+        console.log("import client bundle", LNbitsClient);
     </script>
 </body>
 </html>
