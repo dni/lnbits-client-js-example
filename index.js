@@ -1,5 +1,5 @@
 // https://github.com/dni/lnbits-client-js/blob/main/docs/CoreApi.md#tinyurlApiV1TinyurlPost
-import LnbitsClient from '@lnbits/client';
+let LnbitsClient = require('@lnbits/client');
 
 let key = "15dbed9c69eb498a8bb7db6d2b527d59";
 let api_url = "https://legend.lnbits.com";
