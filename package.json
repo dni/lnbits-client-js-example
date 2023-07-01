@@ -1,0 +1,29 @@
+{
+  "name": "lnbits-client-js-example",
+  "version": "1.0.0",
+  "description": "Example of using the LNbits Javascript Client",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dni/lnbits-client-js-example.git"
+  },
+  "keywords": [
+    "LNbits",
+    "SDK",
+    "Api Client"
+  ],
+  "author": "dni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dni/lnbits-client-js-example/issues"
+  },
+  "homepage": "https://github.com/dni/lnbits-client-js-example#readme",
+  "dependencies": {
+    "@lnbits/client": "^0.10.10-rc1"
+  }
+}
